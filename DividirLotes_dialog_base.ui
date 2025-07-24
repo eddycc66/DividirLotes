@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DividirLotesDialogBase</class>
+ <widget class="QDialog" name="DividirLotesDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dividir Lotes</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="labelCaminos">
+     <property name="text">
+      <string>Seleccionar capa de caminos:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboCaminos"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelParcelas">
+     <property name="text">
+      <string>Número de parcelas por lote:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="spinParcelas">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="value">
+      <number>4</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelAngulo">
+     <property name="text">
+      <string>Ángulo de orientación (grados):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDoubleSpinBox" name="spinAngulo">
+     <property name="minimum">
+      <double>-180.0</double>
+     </property>
+     <property name="maximum">
+      <double>180.0</double>
+     </property>
+     <property name="value">
+      <double>0.0</double>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelAcceso">
+     <property name="text">
+      <string>Distancia máxima de acceso a caminos (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDoubleSpinBox" name="spinAcceso">
+     <property name="minimum">
+      <double>0.0</double>
+     </property>
+     <property name="maximum">
+      <double>1000.0</double>
+     </property>
+     <property name="value">
+      <double>10.0</double>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnEjecutar">
+     <property name="text">
+      <string>Generar Parcelas</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

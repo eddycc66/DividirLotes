@@ -1,0 +1,25 @@
+[general]
+name=Dividir Lotes
+description=Divide polígonos en parcelas iguales según atributos (num_lotes y orientacion).
+about=Este complemento permite subdividir polígonos en partes iguales basándose en atributos definidos en la capa, como la cantidad de parcelas (num_lotes) y la orientación de las divisiones (vertical u horizontal). Genera una capa nueva con las parcelas resultantes, conservando los atributos originales.
+version=1.0
+qgisMinimumVersion=3.10
+author=Geografo Edwin Calle Condori
+email=eddycc66@gmail.com
+icon=icon.png
+category=Vector
+tags=parcelas,division,lotes,subdivisión,geoprocesamiento
+homepage=https://github.com/tuusuario/DividirLotes
+tracker=https://github.com/tuusuario/DividirLotes/issues
+repository=https://github.com/tuusuario/DividirLotes.git
+experimental=False
+deprecated=False
+
+[changelog]
+1.0=Primera versión funcional: permite dividir polígonos en varias parcelas en orientación vertical u horizontal, según atributos en la capa.
+
+[platform]
+platform=all
+
+[isExperimental]
+False
