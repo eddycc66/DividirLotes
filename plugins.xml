@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <pyqgis_plugin name="DividirLotes" version="1.0">
+    <description>Divide polígonos en partes iguales con orientación vertical y horizontal por atributos</description>
+    <version>1.0</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <qgis_maximum_version>3.99</qgis_maximum_version>
+    <homepage>https://github.com/eddycc66/DividirLotes</homepage>
+    <download_url>https://eddycc66.github.io/DividirLotes/DividirLotes.zip</download_url>
+    <file_name>DividirLotes.zip</file_name>
+  </pyqgis_plugin>
+</plugins>
